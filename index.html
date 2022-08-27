@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Snake</title>
+ </head>
+ <body>
+    <div class="game-body">
+        <div class="box-end">
+            <span class="text">GAME OVER</span>
+            <button class="try-button">Try Again</button>
+        </div>
+        <input type="button" value="START GAME" class="buttonStart"/>
+        <span id="score">0</span>
+        <canvas id="gameCanvas" width="400px" height="400px"></canvas>
+        <audio class="attack" src="./file/202233328-snake-attack-hiss.mp3"></audio>
+    </div>
+    <script src="./script.js"></script>
+ </body>
+</html>
